@@ -17,14 +17,26 @@ The project leverages **Convolutional Neural Networks (CNN)** for image classifi
 - Performance evaluation (accuracy, loss, confusion matrix)
 - Model improvement techniques (augmentation, dropout)
 
-## 📊 Dataset
+📦 Dataset Used
+We used the TrashNet Dataset developed by Gary Thung and Mindy Yang, which consists of 2,527 images categorized into the following classes:
 
-The model is trained on the **TrashNet** dataset, which contains images of trash across several categories:
-- **Cardboard**
-- **Glass**
-- **Metal**
-- **Paper**
-- **Plastic**
+Cardboard
+
+Glass
+
+Metal
+
+Paper
+
+Plastic
+
+Trash
+
+📥 Download Dataset:
+🔗 TrashNet Dataset (Dropbox)
+GitHub Mirror: 🔗 GitHub - TrashNet Repo
+
+Note: After downloading, extract the contents into your project folder under a directory named data/ or similar, and update paths in the notebook accordingly.
 
 > Dataset Source: [TrashNet Dataset by Stanford](https://github.com/garythung/trashnet)
 
